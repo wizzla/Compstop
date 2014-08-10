@@ -1,0 +1,46 @@
+<div class="footer">
+    <!-- <div class="inner"> --><!-- redundant -->
+
+        %%Panel.SideNewsletterBox%%
+
+        <div class="footer-main">
+            <div class="inner">
+                <div class="footer-columns row">
+                    <div class="col-sm-3"><h4>%%LNG_HC_quicklinks%%</h4>%%Panel.PagesMenu%%</div>
+                    <div class="col-sm-3">%%Panel.FooterCategoryList%%</div>
+                    <div class="col-sm-3">%%Panel.BrandList%%</div>
+                    <div class="col-sm-3">%%Panel.SocialLinks%%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <div class="inner">
+                <p>
+                    <span id="currencyPrices">%%GLOBAL_AllPricesAreInCurrency%%.</span> &copy; %%GLOBAL_Year%% %%GLOBAL_StoreName%%. %%SNIPPET_SitemapLink%%
+                    <span class="powered-by">%%GLOBAL_PoweredBy%%</span>
+                </p>
+                %%GLOBAL_DebugDetails%%
+            </div>
+        </div>
+
+    <!-- </div> --><!-- redundant -->
+</div>
+
+%%GLOBAL_DesignModeHTML%%
+%%GLOBAL_QueryList%%
+%%GLOBAL_DesignModeScriptTag%%
+%%GLOBAL_LiveChatFooterCode%%
+%%GLOBAL_OptimizerTrackingScript%%
+%%GLOBAL_OptimizerConversionScript%%
+%%GLOBAL_OptimizerSetCookieScript%%
+%%GLOBAL_FooterScripts%%
+%%SNIPPET_FastCartThickBoxJs%%
+
+<!-- CompStop JS -->
+<script src="%%ASSET_js/compstop.js%%"></script>
+<script>
+    $( document ).ready(function() {
+    $('.SalePrice').parents('li').addClass('saleflag');
+    })
+</script>
